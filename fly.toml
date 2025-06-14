@@ -1,0 +1,11 @@
+# fly.toml app configuration file generated on 2023-09-28T13:02:39+02:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+primary_region = 'cdg'
+
+[build]
+
+[[vm]]
+  size = 'shared-cpu-1x'
